@@ -78,6 +78,7 @@ a {
   color:#F9FAF8;
   padding: 5px 30px;
   border-radius: 8px;
+  border: hidden;
 }
 
 .random {
@@ -147,4 +148,50 @@ a {
     align-self: flex-end;
     font-size: 18px;
     font-weight: 900;
+}
+
+.call-to-action-container {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    border: hidden;
+    border-radius: 8px;
+    padding: 40px 80px;
+    gap: 50px;
+}
+
+.call-to-action-text {
+    flex-direction: column;
+}
+
+.heading {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.sign-up {
+    color:#F9FAF8;
+    font-size: 16px;
+}
+
+.white {
+    border: solid;
+    border-color: #F9FAF8;
+    border-width: 1px;
+}
+
+.copyright {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 25px 75px;
+    justify-content: center;
+
 }
