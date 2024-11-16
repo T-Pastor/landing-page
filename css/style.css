@@ -39,7 +39,7 @@ a {
 
 .greeting {
     display: flex;
-    padding: 75px 50px;
+    padding: 100px 50px;
     background-color: #1F2937;
     gap: 50px;
 }
@@ -76,6 +76,53 @@ a {
 .subscribe {
   background-color: #3882F6;
   color:#F9FAF8;
-  padding: 5px 15px;
+  padding: 5px 30px;
   border-radius: 8px;
+}
+
+.random {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 85px;
+}
+
+.illustration-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 125px;
+}
+
+.illustration {
+    width: 125px;
+    height: 125px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 3px;
+    border-radius: 8px;
+}
+
+.caption {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
 }
